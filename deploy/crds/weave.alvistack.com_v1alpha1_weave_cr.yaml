@@ -1,0 +1,7 @@
+apiVersion: weave.alvistack.com/v1alpha1
+kind: Weave
+metadata:
+  name: example-weave
+spec:
+  # Add fields here
+  size: 3

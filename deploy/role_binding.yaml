@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: weave-operator
+subjects:
+- kind: ServiceAccount
+  name: weave-operator
+roleRef:
+  kind: Role
+  name: weave-operator
+  apiGroup: rbac.authorization.k8s.io
